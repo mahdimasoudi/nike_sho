@@ -1,0 +1,35 @@
+name: nike_shop
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  dio: ^5.8.0+1
+  flutter_bloc: ^9.0.0
+  equatable: ^2.0.5
+  cached_network_image: ^3.4.1
+  smooth_page_indicator: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+     - lib/assets/images/
+
+  fonts:
+    - family: IranSansFa
+      fonts:
+        - asset: lib/assets/fonts/iransansfa.ttf
+          weight: 700
