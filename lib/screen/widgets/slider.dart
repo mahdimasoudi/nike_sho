@@ -12,7 +12,7 @@ class BannerSlider extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    //برای این که نصبت تصویر حفظ شو.د
+    //برای این که نصبت تصویر حفظ شود
     return AspectRatio(
       aspectRatio: 2,
       child: Stack(

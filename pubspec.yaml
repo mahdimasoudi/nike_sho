@@ -32,4 +32,4 @@ flutter:
     - family: IranSansFa
       fonts:
         - asset: lib/assets/fonts/iransansfa.ttf
-          weight: 700
+          
