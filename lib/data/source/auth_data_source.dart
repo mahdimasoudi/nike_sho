@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart' show Dio;
 import 'package:nike_shop/data/common/http_response_validator.dart';
-import 'package:nike_shop/screen/authentication/auth_info.dart';
+import 'package:nike_shop/data/model/auth_info.dart';
 import 'package:nike_shop/screen/authentication/constants.dart';
 
 abstract class IAuthDataSource {
